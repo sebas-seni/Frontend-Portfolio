@@ -1,0 +1,39 @@
+body {
+  background-color: #F2DEBA;
+    font-family: 'Itim', cursive;
+}
+
+
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.choice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 40px;
+
+}
+
+
+#user-choice, #computer-choice, #result {
+  font-size: 45px;
+  padding-left: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 5px;
+  border: 2px solid black;
+}
+
