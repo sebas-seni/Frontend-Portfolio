@@ -1,0 +1,72 @@
+body {
+  background: #e6e6e6;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  width: 400px;
+  margin: 40px auto 0;
+  padding: 50px;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 10px -8px #000;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #d3d3d3;
+}
+
+h1 {
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: solid 2px #e6e6e6;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin: 21px 0;
+}
+
+input, select {
+  padding: 8px;
+  margin: 15px 0;
+}
+
+.totalPeople {
+  width: 90px;
+}
+
+button {
+  background: #c02c2c;
+  color: white;
+  border: solid 2px #222;
+  font-size: 18px;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+button:hover {
+  background: #881f1f;
+}
+
+button:active {
+  position: relative;
+  top: 5px;
+}
+
+#totalTip {
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.tip-amount, .each{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.dollar{
+  display: inline;
+  font-size: 24px;
+}
